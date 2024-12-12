@@ -19,7 +19,7 @@ System.out.println("Digite o valor Quadrado:");
 v1[i]=vlr.nextInt();
 
 
-//Processamento
+//Processamento.
 v2a[i]=vf*vf2;
 v2b[i]=v1[i]*10;
 v2[i]=(int)Math.pow(v1[i],2);
