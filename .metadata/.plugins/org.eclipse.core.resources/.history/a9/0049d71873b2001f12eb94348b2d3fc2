@@ -1,0 +1,73 @@
+package txt;
+import java.util.*;
+
+// _O nome da turma - Exemplo: 1DM;
+// _O nome da Unidade Curricular - Exemplo: FPOO;
+// _O nome do profesor que leciona esta Unidade Curricular;
+// _5 nomes de alunos;
+// _4 notas bimestrais (0 a 100);
+// _O número de faltas (0 a 10).
+public class test {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System .in);
+		String[] aluno= new String[5];
+		String[] professor= new String[4];
+		int[][] notas= new int[5][4];
+		double[] presença=new double[5];
+		String turma, materia;
+		int [] cont=new int[5];
+		double [] media=new double[5];
+		for(int i=0;i<5;i++) {
+			
+			System.out.printf("Quais são os Alunos:%d",i+1);
+			aluno[i]=sc.nextLine();
+			
+						}
+		for(int i=0;i<1;i++) {
+			
+				System.out.printf("Quais são as materias:%d",i+1);
+				materia=sc.nextLine();
+			
+						}
+				for(int i=0;i<3;i++) {
+	
+					System.out.printf("Quais são quais são os professores:%d",i+1);
+						professor[i]=sc.nextLine();
+	
+				}
+				for(int i=0;i<5;i++) {
+				 while(true){
+					System.out.printf("OBS.: As presenças devem ser de 0 a 10\nQuais são quais são os professores:%d",i+1);
+					
+					if(sc.hasNextDouble()) {	
+					presença[i]=sc.nextDouble();
+						if (presença[i]>=0&&presença[i]>=10) {
+							break;
+						}else {
+	                        System.out.println("Erro: A nota deve estar entre 0 e 10. Tente novamente.");
+	                    }
+						}else {
+	                        System.out.println("Erro: Entrada inválida. Por favor, digite um número válido.");
+	                        sc.next(); // Limpa a entrada inválida
+	                    }
+				
+				}
+				}
+				for(int i=0;i<5;i++) {
+					for(int j=0;j<4;j++) {
+					System.out.printf("OBS.: Notas devem ser de 0 a 100 \nQuais são as notas do %d° Bimestre  aluno(a) %s :",j+1 ,aluno[i]);
+					notas[i][j]=sc.nextInt();
+					cont[i]+=notas[i][j];
+					}}
+				
+				for(int i=0;i<5;i++) {
+				media[i]=cont[i]/4;						
+				}
+				
+				
+				
+	}
+
+}}
+

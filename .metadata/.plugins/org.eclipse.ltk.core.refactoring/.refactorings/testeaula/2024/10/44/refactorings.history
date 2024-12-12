@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testeaula_04_10.PT2_aula&apos; to &apos;CPF&apos;&#x0D;&#x0A;- Original project: &apos;testeaula&apos;&#x0D;&#x0A;- Original element: &apos;testeaula_04_10.PT2_aula&apos;&#x0D;&#x0A;- Renamed element: &apos;testeaula_04_10.CPF&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PT2_aula&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/04_10&lt;testeaula_04_10{PT2_aula.java[PT2_aula" matchStrategy="1" name="CPF" qualified="false" references="true" similarDeclarations="false" stamp="1730144572017" textual="false" version="1.0"/>
+</session>

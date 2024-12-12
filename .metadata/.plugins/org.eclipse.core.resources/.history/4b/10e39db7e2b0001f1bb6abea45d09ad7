@@ -1,0 +1,31 @@
+package projeto_fn;
+
+import java.util.Scanner;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		int i=0, j=0;
+		int[] Va =new int[15];
+		int[] Vb = new int[15];
+		Scanner valor= new Scanner(System.in);
+		Va[0]=1;
+		System.out.println("Informe 15 valores");
+
+		System.out.printf("Digite os valor dos vetores:\n");
+		for(i=1;i<15;i++) {;
+			System.out.printf("Va[%d]= ",i);
+			Va[i]=valor.nextInt();
+			Vb[i]=Va[i]*Va[i-1]*i;
+
+		}
+
+		System.out.printf("\nOs valores de Vb\n");
+		for(i=0;i<15;i++) {
+				System.out.println(Va[i]);
+
+		}
+		}
+	
+
+}

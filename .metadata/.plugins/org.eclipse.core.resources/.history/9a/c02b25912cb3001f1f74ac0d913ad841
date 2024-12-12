@@ -1,0 +1,47 @@
+package integrador;
+import java.util.*;
+public class ExEClass {
+Scanner sc =new Scanner(System.in);
+	public static  aluno(){
+		int i=0;
+		for(i=0;i<5;i++) {
+			
+		aluno[i]=	
+			
+			
+		}
+		
+	}
+	public static  professor(){
+		
+		
+		
+		
+	}	
+	public static  materia(String[] args){
+		
+		
+		
+		
+	}	
+	public static void turma(String[] args){
+		
+		
+		
+		
+	}
+	public static void mediaBi(String[] args){
+		
+		
+		
+		
+	}
+	public static void main(String[] args) {
+	
+		String[] aluno= new String[4];
+		aluno[4]= {"Lucas", "carlos", "eduardo","silva","Edu"};
+	
+	
+	}
+
+}

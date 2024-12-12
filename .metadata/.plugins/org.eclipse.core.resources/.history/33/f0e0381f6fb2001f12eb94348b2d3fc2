@@ -1,0 +1,52 @@
+package txt;
+import java.util.*;
+public class test {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System .in);
+		String[] aluno= new String[5];
+		String[] professor= new String[4];
+		String[][] notas= new String[5][4];
+		String[] presença=new String[10];
+		String turma, materia;
+		int [] cont=new int[5];
+		double [] media=new double[5];
+		/*for(int i=0;i<5;i++) {
+			
+			System.out.printf("Quais são os Alunos:%d",i+1);
+			aluno[i]=sc.nextLine();
+			
+						}
+		/*	for(int i=0;i<1;i++) {
+			
+				System.out.printf("Quais são as materias:%d",i+1);
+				materia=sc.nextLine();
+			
+						}
+				for(int i=0;i<3;i++) {
+	
+					System.out.printf("Quais são quais são os professores:%d",i+1);
+						professor[i]=sc.nextLine();
+	
+				}
+				for(int i=0;i<3;i++) {
+					
+					System.out.printf("Quais são quais são os professores:%d",i+1);
+						presença[i]=sc.nextLine();
+	
+				}*/for(int i=0;i<5;i++) {
+					for(int j=0;j<4;j++) {
+					System.out.printf("Quais são as notas do Bimestre %d aluno(a) %s :",j ,aluno[i]);
+					notas[i][j]=sc.nextLine();
+					cont[i]+=Integer.parseInt(notas[i][j]);
+					}}
+				for(int i=0;i<5;i++) {
+				media[i]=cont[i]/4;						
+				System.out.printf("\n%.2f",media[i]);
+				}
+				
+				
+				
+	}
+
+}
